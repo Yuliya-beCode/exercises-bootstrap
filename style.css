@@ -1,22 +1,6 @@
 
 
 
-.col-2 {
-    border-style: groove;
-    border-color: black;
-    border-radius: 5px;
-    border-width: 2px;
-    
-}
-
-.col-3 {
-    border-style: groove;
-    border-color: black;
-    border-radius: 5px;
-    border-width: 2px;
-    
-}
-
 .row {
     background-color: #CDA5F3;
     text-align: center;
@@ -24,5 +8,20 @@
     border-style: groove;
     border-color: black;
     border-width: 2px;
+       
+}
+
+[class*="col-"]{
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px;
     
+}
+
+.col {
+    border-style: groove;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px;
 }
