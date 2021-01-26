@@ -1,14 +1,4 @@
 
-
-.row {
-    background-color: #CDA5F3;
-    text-align: center;
-    border-color: black;
-    border-width: 2px;
-    
-       
-}
-
 [class*="col-"]{
     border-style: groove;
     border-color: black;
@@ -18,4 +8,5 @@
     background-color: #CDA5F3;
     
 }
+
 
