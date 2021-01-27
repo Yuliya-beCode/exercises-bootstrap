@@ -18,19 +18,21 @@
 <br>
 
 
-    <div class="container-fluid">
+    <div class="container">
     <h1>I - blocs positioning</h1>
 
         <div class="row">
-            <div class="col col-md-12">12 colonnes
+            <div id="box" class="col-12">
+                12 colonnes
                 <div class="row">
-                    <div class="col col-md-2 offset-1">Coucou</div>
-                    <div class="col col-md-3 offset-2">ca</div>
-                    <div class="col col-md-2 offset-2">va?</div>
-                </div>
+                <div class="col-2 offset-1 ">Coucou</div>
+                <div class="col-3 offset-2">ca</div>
+                <div class="col-2 offset-2">va ?</div>
             </div>
-            </div>
+        </div>
+
     </div>
+
     
 
       
@@ -46,25 +48,25 @@
      <h1>II - imbricated elements</h1>
 
       <div class="row">
-          <div class="col col-md-4">Nouvel</div>
+          <div class="col-md-4">Nouvel</div>
                 
-           <div class="col col-md-8">Exercice
+           <div id="large_box" class="col-md-8">Exercice
                <div class="row">
-                   <div class="col col-md-3">ces</div>
-                   <div class="col col-md-6">blocs sont tous</div>
-                    <div class="col col-md-3">dans</div>
+                   <div class="col-md-3">ces</div>
+                   <div class="col-md-6">blocs sont tous</div>
+                    <div class="col-md-3">dans</div>
                </div>
                
                <div class="row">
-                   <div class="col col-md-4">la meme</div>
-                   <div class="col col-md-4">div ou est</div>
-                    <div class="col col-md-4">inscrit <b>"Exercice"</b></div>
+                   <div class="col-md-4">la meme</div>
+                   <div class="col-md-4">div ou est</div>
+                    <div class="col-md-4">inscrit <b>"Exercice"</b></div>
                </div>
 
                <div class="row">
-                   <div class="col col-md-5">comment</div>
-                   <div class="col col-md-2">est</div>
-                    <div class="col col-md-5">ce possible ?</div>
+                   <div class="col-md-5">comment</div>
+                   <div class="col-md-2">est</div>
+                    <div class="col-md-5">ce possible ?</div>
                </div>
 
             </div>
@@ -87,10 +89,13 @@
     <div class="container-fluid">
         <h1>III - change elements order</h1>
         <div class="row">
-            <div class="col-md-12 order-first">12 colones</div>
-            <div class="col-md-2 offset-md-1 order-3">Bloc 2 de 3</div>
-            <div class="col-md-2 offset-md-2 order-4">Bloc 2 de 2</div>
-            <div class="col-md-2 offset-md-2 order-2"> Bloc 1 de 2</div>
+            <div id="box" class="col-md-12">12 colones
+                <div class="row">
+                    <div class="col-md-2 order-1">Bloc 2 de 3</div>
+                    <div class="col-md-2 offset-md-2 order-3">Bloc 2 de 2</div>
+                    <div class="col-md-2 offset-md-2 order-2"> Bloc 1 de 2</div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -106,7 +111,7 @@
      <h1>IV - practice makes good</h1>
 
         <div class="row">
-            <div class="col col-md-6">6 colonnes
+            <div id="box" class="col col-md-6">6 colonnes
                 <div class="row">
                     <div class="col col-md-4">4 colonnes</div>
                     <div class="col col-md-8">8 colonnes</div>
@@ -114,7 +119,7 @@
             </div>
 
 
-            <div class="col col-md-6">6 colonnes
+            <div id="box" class="col col-md-6">6 colonnes
                 <div class="row">
                     <div class=" col col-md-4">4 colonnes</div>
                     <div class="col col-md-8">8 colonnes</div>

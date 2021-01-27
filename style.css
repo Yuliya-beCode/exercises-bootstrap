@@ -1,12 +1,29 @@
 
+body {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
 [class*="col-"]{
     border-style: groove;
     border-color: black;
     border-radius: 5px;
     border-width: 2px;
-    height: 35px;
+    height: 45px;
     background-color: #CDA5F3;
+    text-align: center;
+    padding-bottom: 50px;
+   
     
 }
 
+#box {
+    height: 80px;
+}
+
+#large_box {
+    height: 190px;
+}
 
